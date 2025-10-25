@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
-import './globals.css';
-
+import './globals.css/globals.css';
 export const metadata: Metadata = {
   title: 'Medusa Merchant Dashboard',
   description: 'Manage your connected Shopify stores and marketplace',
