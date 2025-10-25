@@ -23,7 +23,6 @@ export default function Home() {
     const fetchStats = async () => {
       try {
         // TODO: Replace with actual Medusa API calls
-        const medusaUrl = process.env.NEXT_PUBLIC_MEDUSA_URL || 'https://gohaste.medusajs.app';
         
         setStats({
           totalProducts: 42,
