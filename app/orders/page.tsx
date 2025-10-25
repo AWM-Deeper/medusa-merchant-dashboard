@@ -1,8 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { medusaClient } from '@/lib/medusa-client';
-
+import medusaClient from '@/lib/medusa-client';
 type Order = {
   id: string;
   display_id: number;
